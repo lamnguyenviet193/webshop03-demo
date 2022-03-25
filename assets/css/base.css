@@ -126,3 +126,36 @@ body{
     }
 }
  */
+
+ @media (max-width: 46.1875em){
+    .slide2__category-list{
+        display: none;
+    }
+    .slide2__product-description{
+
+    }
+
+    .slide2__product-action{
+        left: 60px;
+    }
+    .slide2__product-medium-item:hover .slide2__product-action{
+        opacity: 1;
+        bottom: 0px;
+        transition: all 0.3s linear;
+    }
+    .slide__hotdeal-product{
+        overflow:unset;
+    }
+    .footer .slide1__footer-item-cover::before {
+        display: none;
+    }
+    .slide1__content-home-content h3{
+        line-height: 5rem;
+    }
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    .footer .slide1__footer-item-cover::before {
+        display: none;
+    }
+}
