@@ -1795,3 +1795,27 @@ html{
      display: block;
     animation: loading 5s linear;
 }
+
+/* footer__tag */
+
+.footer__tag{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background-color: #f5f5f5;
+}
+
+.footer__tag p{
+    user-select: none;
+    font-size: 1.4rem;
+
+}
+
+.footer__tag a:hover{
+    color: var(--primary-color);
+    transition: 0.3s linear;
+}
+
+.footer__tag a{
+    margin: 0 2px;
+}
