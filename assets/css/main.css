@@ -1429,6 +1429,7 @@
 .slide2__product-medium-list{
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 
@@ -1791,6 +1792,7 @@
     left: -20px;
     border-right: 1px solid var(--border-color);
 }
+
 
 /* copyright */
 
