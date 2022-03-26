@@ -152,6 +152,33 @@ body{
     .slide1__content-home-content h3{
         line-height: 5rem;
     }
+
+    .slide2__product-description{
+        margin-top: 130px;
+    }
+
+    .slide2__product-medium-item-link .cover .coating{
+        display: none;
+    }
+    .time-sale{
+        right: -2px;
+    }
+
+    .slide2__header-title{
+        text-align: center;
+    }
+    
+    .slide__hotdeal__header-title {
+        display: flex;
+        justify-content: center;
+    }
+    .slide-hotdeal__product-action{
+        right: 35px;
+    }
+
+    .slide__hotdeal__header::after{
+        display: none;
+    }
 }
 
 @media (min-width: 46.25em) and (max-width: 63.9375em){
