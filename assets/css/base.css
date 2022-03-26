@@ -179,6 +179,9 @@ body{
     .slide__hotdeal__header::after{
         display: none;
     }
+    .slide2__header-title::before{
+        right: 0;
+    }
 }
 
 @media (min-width: 46.25em) and (max-width: 63.9375em){
