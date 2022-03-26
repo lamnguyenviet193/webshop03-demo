@@ -1453,10 +1453,11 @@
 .slide2__product-medium-item{
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
-.slide2__product-medium-item{
-    margin-bottom: 20px;
+.slide2__product-medium-item-out{
+    top: -15px;
 }
 
 .slide2__product-lar-link{
@@ -1573,6 +1574,21 @@
 }
 
 .slide2__product-medium-item:hover .slide2__product-action{
+    opacity: 1;
+    bottom: 0px;
+    transition: all 0.3s linear;
+}
+
+.slide2__product-medium-item--out .slide2__product-price{
+    display: none;
+}
+
+.slide2__product-medium-item--out .slide2__product-description{
+    min-height: 45px; 
+}
+
+
+.slide2__product-medium-item:hover .slide2__product-medium-item-out .slide2__product-action{
     opacity: 1;
     bottom: 0px;
     transition: all 0.3s linear;
