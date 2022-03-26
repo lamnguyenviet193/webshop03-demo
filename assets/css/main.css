@@ -1331,9 +1331,9 @@
 
 .slide2__header::before{
     content: "";
-    width: 100%;
+    width: 90%;
     bottom: 9.1px;
-    right: 0;
+    right: 10px;
     position: absolute;
     border-bottom: 1px solid var(--border-color);
 }
@@ -1348,7 +1348,7 @@
     content: "";
     width: 100%;
     bottom: -3.5px;
-    right: 0;
+    right: -11px;
     position: absolute;
     border-bottom: 2px solid var(--primary-color);
 }
@@ -1611,7 +1611,7 @@
     transform-origin: 65% 75%;
     transition: transform 1s, filter .5s ease-out;
 }
-   
+
 /* The Transformation */
 .slide4___footer-banner-link:hover .slide4___footer-banner-img {
     transform: scale(1.05);
@@ -1837,7 +1837,7 @@
 }
 
 .roll:hover .back-home{
-     display: block;
+    display: block;
     animation: loading 5s linear;
 }
 
