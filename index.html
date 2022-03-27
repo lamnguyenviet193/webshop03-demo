@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
@@ -102,7 +103,7 @@
                 </div>
                 <div class="header__search-search col l-6 m-0 c-0">
                     <form class="header__search-search-form" action="">
-                        <input class="header__search-search-input" type="text" placeholder="Search for product" id="search">
+                        <input class="header__search-search-input" type="search" placeholder="Search for product" id="search">
                         <label class="header__search-search-icon" for="search">
                             <a class="header__search-search-icon-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                         </label>
@@ -977,7 +978,13 @@
                             
                             <div class="slide2__product-medium col l-8 m-4 c-12">
                                 <div class="slide2__product-medium-list row">
-                                    <div class="slide2__product-medium-item col l-3 ">
+                                    <!-- <a class="slide2__product-medium-up-link" href="#first-product">
+                                        <i class="slide2__product-medium-up-icon fa-solid fa-up-long"></i>
+                                    </a>
+                                    <a class="slide2__product-medium-down-link" href="#last-product">
+                                        <i class="slide2__product-medium-down-icon fa-solid fa-down-long"></i>
+                                    </a> -->
+                                    <div id="first-product" class="slide2__product-medium-item col l-3 ">
                                         <a class="slide2__product-medium-item-link">
                                             <div class="cover">
                                                 <img src="./assets/img/container/slide2/product2.jpg" alt="" class="slide2__product-medium-img">
@@ -1170,6 +1177,223 @@
                                         <a class="slide2__product-medium-item-link">
                                             <div class="cover">
                                                 <img src="./assets/img/container/slide2/product1.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            
+                                            <div class="slide2__product-description">
+                                                <h3>Mauris at euismod lectus lacus</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">45.00 - $78.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product9.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Aenean inter dum dui sed</h3>
+                                                <span class="slide2__product-price">$18.00</span>
+                                                <span class="slide2__product-price slide2__product-price--current">$16.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product10.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Morbi odio eros lacinia sit</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$16.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product11.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Lorem ipsum dolor sit amet</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$13.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product12.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Etiam ultricies eu lorem et</h3>
+                                                <!-- <span class="slide2__product-price">$101.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$16.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product13.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Sed varius mauris eu elemen</h3>
+                                                <!-- <span class="slide2__product-price">$17.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$17.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product14.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Fusce et congue doloR lorem</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$14.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product4.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Nam efficitur nisl in convallis</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$15.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div id="last-product" class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product7.jpg" alt="" class="slide2__product-medium-img">
                                                 <div class="coating"></div>
                                             </div>
                                             
@@ -1487,6 +1711,223 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product2.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Vivamus amet sit erat sapien</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$15.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product3.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Sed aliquam at lacus eu feugiat</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$99.00 - $112.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product4.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Lorem ipsum amet dolor sit</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$25.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product5.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Integer aliquet tincidunt sapien</h3>
+                                                <!-- <span class="slide2__product-price">$101.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$84.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product6.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Lorem censes amet vita quo</h3>
+                                                <!-- <span class="slide2__product-price">$17.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$28.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product7.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Lorem ipsum amet elit sit</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$23.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide3/product8.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Vivamus luctus sempe acu</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">59.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item slide2__product-medium-item--out col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide2/product1.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            
+                                            <div class="slide2__product-description">
+                                                <h3>Out of Stock</h3>
+                                                <span class="slide2__product-price">$18.00</span>
+                                                <span class="slide2__product-price slide2__product-price--current">45.00 - $78.00</span>
+                                            </div>
+                                            <div class="slide2__product-action slide2__product-action--out">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1558,6 +1999,223 @@
     
                             <div class="slide2__product-medium col l-8 m-4 c-12">
                                 <div class="slide2__product-medium-list row">
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product2.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Aenean cras vel luctus saneu</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$17.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product3.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Cras purus purus males uada</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$14.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product4.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Proin at lacus blandit lectus</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$17.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product5.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Aenean orci mi accum saneu</h3>
+                                                <!-- <span class="slide2__product-price">$101.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$12.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product6.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Nunc sodales orciuis enim</h3>
+                                                <!-- <span class="slide2__product-price">$17.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$16.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product7.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Vivamus velit mattis enim nec</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$58.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product8.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            <div class="slide2__product-description">
+                                                <h3>Vivamus luctus semper acc umsan</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$12.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="slide2__product-medium-item col l-3 m-0 c-0 ">
+                                        <a class="slide2__product-medium-item-link">
+                                            <div class="cover">
+                                                <img src="./assets/img/container/slide4/product1.jpg" alt="" class="slide2__product-medium-img">
+                                                <div class="coating"></div>
+                                            </div>
+                                            
+                                            <div class="slide2__product-description">
+                                                <h3>Praesent lacinia mauris non</h3>
+                                                <!-- <span class="slide2__product-price">$18.00</span> -->
+                                                <span class="slide2__product-price slide2__product-price--current">$7.00</span>
+                                            </div>
+                                            <div class="slide2__product-action">
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-cart-shopping"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-regular fa-heart"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                                </div>
+                                                <div class="slide2__product-action-btn">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                     <div class="slide2__product-medium-item col l-3 ">
                                         <a class="slide2__product-medium-item-link">
                                             <div class="cover">
