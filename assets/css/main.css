@@ -646,6 +646,8 @@
     display: none;
     border: 1px solid var(--border-color);
     box-shadow: 2px 1px 3px rgb(0 0 0 / 20%);
+    animation: loading2 linear 0.5s;
+    transition: all 0.5s linear;
 }   
 
 .slide1__item-kitchen-container{
@@ -720,7 +722,6 @@
 
 .slide1__category-item:hover .slide1__item-kitchen{
     display: flex;
-    animation: loading2 linear 0.5s;
 }
 
 /* Category Bed Room */
@@ -1514,6 +1515,8 @@
     text-align: center;
     opacity: 1;
     transform: scale(100%);
+    transition: all 0.5s linear;
+
 }
 
 .slide2__product-medium-item-link,
@@ -1553,6 +1556,7 @@
     display: flex;
     justify-content: space-between;
     opacity: 0;
+    transition: all 0.3s linear;
 }
 
 .slide2__product-action-btn{
@@ -1576,7 +1580,7 @@
 .slide2__product-medium-item:hover .slide2__product-action{
     opacity: 1;
     bottom: 0px;
-    transition: all 0.3s linear;
+    /* transition: all 0.3s linear; */
 }
 
 .slide2__product-medium-item--out .slide2__product-price{
@@ -1597,7 +1601,6 @@
 .slide2__product-medium-item:hover .slide2__product-description{
     opacity: 0;
     transform: scale(0);
-    transition: all 0.5s linear;
 
 }
 
@@ -1726,11 +1729,13 @@
     text-align: center;
     opacity: 1;
     transform: scale(100%);
+    transition: all 0.5s linear;
 }
 
 .slide__hotdeal-description h3{
     font-weight: 500;
     color: var(--text-color);
+    
 }
 
 .slide-hotdeal__product-action{
@@ -1741,18 +1746,17 @@
     right: 20px;
     bottom: -50px;
     opacity: 0;
+    transition: all 0.3s linear;
 }
 
 .slide__hotdeal-item:hover .slide-hotdeal__product-action{
     bottom: -10px;
     opacity: 1;
-    transition: bottom 0.3s linear;
 }
 
 .slide__hotdeal-item:hover .slide__hotdeal-description{
     opacity: 1;
     transform: scale(0);
-    transition: all 0.5s linear;
 }
 
 .slide-hotdeal__product-action-btn{
@@ -1768,7 +1772,7 @@
 .slide-hotdeal__product-action-btn:hover{
     background-color: var(--primary-color);
     color: var(--white-color);
-    transition: 0.3s linear;
+    /* transition: all 0.3s linear; */
 }
 
 /* sale */
@@ -1873,8 +1877,9 @@
 .back-home:hover{
     background-color: var(--primary-color);
     color: var(--white-color);
-    transition: all 0.5s linear;    
+    transition: all 0.5s linear;
 }
+
 
 .roll:hover .back-home{
     display: block;
