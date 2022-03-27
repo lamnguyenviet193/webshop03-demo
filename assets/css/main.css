@@ -644,7 +644,7 @@
     background-color: var(--white-color);
     /* background-color: red; */
     opacity: 0;
-    display: flex;
+    display: none;
     border: 1px solid var(--border-color);
     box-shadow: 2px 1px 3px rgb(0 0 0 / 20%);
     animation: loading2 linear 0.5s;
