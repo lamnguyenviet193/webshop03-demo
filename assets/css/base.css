@@ -60,14 +60,13 @@ body{
 
 
 @keyframes loading2{
-    0%{
+    0%{ 
         opacity: 0;
         transform: translateY(5%);
     }
     100%{
         opacity: 1;
         transform: translateX(0);
-
     }
 }
 
@@ -173,7 +172,8 @@ body{
         justify-content: center;
     }
     .slide-hotdeal__product-action{
-        right: 35px;
+        left: 30px;
+
     }
 
     .slide__hotdeal__header::after{
@@ -182,10 +182,29 @@ body{
     .slide2__header-title::before{
         right: 0;
     }
+    .slide-hotdeal__product-action-btn:last-child ,
+    .slide2__product-action-btn:last-child{
+        display: none;
+    }
+    .slide2__product-action{
+        left: 100px;
+    }
 }
 
 @media (min-width: 46.25em) and (max-width: 63.9375em){
     .footer .slide1__footer-item-cover::before {
         display: none;
+    }
+
+    .slide-hotdeal__product-action-btn:last-child,
+    .slide2__product-action-btn:last-child{
+        display: none;
+    }
+
+    .slide-hotdeal__product-action{
+        left: 30px;
+    }
+    .slide2__product-action{
+        left: 30px;
     }
 }
