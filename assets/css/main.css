@@ -1948,6 +1948,8 @@
     left: 0;
     display: block;
     padding: 20px 5px;
+    z-index: 100;
+    
 }
 
 .slide2__product-medium-up-link{
