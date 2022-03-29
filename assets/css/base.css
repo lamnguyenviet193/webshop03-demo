@@ -85,12 +85,10 @@ to{
 
 @keyframes loading4{
     0%{
-        opacity: 1;
-        transform: translatey(10%);
+        opacity: 0;
     }
     100%{
         opacity: 1;
-        transform: translatey(0);
     }
 }
 
@@ -211,11 +209,11 @@ z-index: -1;
     }
     .slide1__sidebar-mobile-input:checked ~ .slide1__sidebar-mobile-sub{
         opacity: 1;
-        transform: translateX(11%);
+        transform: translateX(31px);
         z-index: 3;
     }
     .slide1__sidebar-home-list-2{
-        left: 32px;
+        left:  100%;
     }
 }
 
@@ -241,15 +239,4 @@ z-index: -1;
     .slide2__product-action{
         left: 30px;
     }
-}
-
-
-
-
-.slide-hotdeal__product-action{
-    left: 30px;
-}
-.slide2__product-action{
-    left: 30px;
-}
 }
