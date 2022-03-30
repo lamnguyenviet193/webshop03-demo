@@ -158,8 +158,15 @@ z-index: -1;
     .footer .slide1__footer-item-cover::before {
         display: none;
     }
+    .slide1__content-home{
+        position: relative;
+        right: 40px;
+        min-width: 400px;
+    }
     .slide1__content-home-content h3{
         line-height: 5rem;
+        margin-left: 20px;
+        font-size: 3rem;
     }
 
     .slide2__product-description{
@@ -210,7 +217,13 @@ z-index: -1;
     }
     .slide1__sidebar-mobile{
         display: block;
+        background-image: linear-gradient(180deg,rgba(51, 204, 204,1),rgba(51, 204, 204,0));
+        background-color: transparent;
     }
+    .slide1__sidebar-mobile-item{
+        padding: 10px 0;
+    }
+
     .slide__sidebar-mobile-header-icon,
     .slide1__sidebar-mobile-item-icon{
         font-size: 2rem;
