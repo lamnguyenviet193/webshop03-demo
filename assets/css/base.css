@@ -164,6 +164,15 @@ z-index: -1;
 
     .slide2__product-description{
         margin-top: 0;
+        
+    }
+    .slide2__product-description h3{
+        display: -webkit-box;
+        -webkit-line-clamp: 1; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 1.8rem;
     }
 
     .slide2__product-medium-item-link .cover .coating{
