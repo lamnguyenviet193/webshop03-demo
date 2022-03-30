@@ -2003,6 +2003,7 @@
     align-items: center;
     /* overflow: hidden; */
     display: none;
+    user-select: none;
 
 }
 
