@@ -95,7 +95,6 @@ to{
 }
 
 
-
 @-webkit-keyframes icon-circle-img-anim {
 0%{
     -webkit-transform: translateX(-5px);
@@ -144,9 +143,6 @@ z-index: -1;
     .slide2__category-list{
         display: none;
     }
-    .slide2__product-description{
-
-    }
 
     .slide2__product-action{
         left: 60px;
@@ -167,7 +163,7 @@ z-index: -1;
     }
 
     .slide2__product-description{
-        margin-top: 130px;
+        margin-top: 0;
     }
 
     .slide2__product-medium-item-link .cover .coating{
@@ -201,7 +197,7 @@ z-index: -1;
         display: none;
     }
     .slide2__product-action{
-        left: 100px;
+        left: 15%;
     }
     .slide1__sidebar-mobile{
         display: block;
