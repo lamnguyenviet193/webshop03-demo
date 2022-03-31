@@ -1342,6 +1342,10 @@
     padding: 10px;
 }
 
+.slide1__footer-item:first-child .slide1__footer-item-cover::before{
+    display: none;
+}
+
 .slide1__footer-description{
     margin: 0 0 10px 10px;
 }
